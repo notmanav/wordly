@@ -1,5 +1,5 @@
 #findtext=raw_input("Enter Letters")
-findtext="studio"
+findtext=""
 f=open("./res/words.txt")
 #f=open("./res/words-test.txt")
 nextline=f.readline().rstrip()
