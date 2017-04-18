@@ -1,7 +1,7 @@
 #findtext=raw_input("Enter Letters")
 findtext="frozen"
-f=open("../../res/words.txt")
-#f=open("../../res/words-test.txt")
+f=open("./res/words.txt")
+#f=open("./res/words-test.txt")
 nextline=f.readline().rstrip()
 loopcontrol=0
 minletters=3
